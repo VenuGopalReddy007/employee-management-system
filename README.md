@@ -42,7 +42,45 @@ The Employee Management System is designed to manage employee-related operations
 
 ## Project Structure
 
-Employee-Management-System/ ├── src/ │   ├── main/ │   │   ├── java/ │   │   │   └── com/example/Employee_Management_System/ │   │   │       ├── controller/ │   │   │       │   ├── EmployeeController.java │   │   │       │   └── UserController.java │   │   │       ├── model/ │   │   │       │   ├── Employee.java │   │   │       │   ├── UserPrincipal.java │   │   │       │   └── Users.java │   │   │       ├── repository/ │   │   │       │   ├── EmployeeRepository.java │   │   │       │   └── UserRepository.java │   │   │       ├── security/ │   │   │       │   ├── CustomAuthenticationSuccessHandler.java │   │   │       │   └── SecurityConfig.java │   │   │       ├── service/ │   │   │       │   ├── EmailService.java │   │   │       │   ├── EmployeeService.java │   │   │       │   ├── MyUserDetailsService.java │   │   │       │   └── UserService.java │   │   │       └── EmployeeManagementSystemApplication.java │   │   └── resources/ │   │       ├── static/ │   │       ├── templates/ │   │       ├── application.properties │   │       └── data.sql │   └── test/ └── pom.xml
+Employee-Management-System/
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   └── com/
+│   │   │       └── example/
+│   │   │           └── Employee_Management_System/
+│   │   │               ├── controller/
+│   │   │               │   ├── EmployeeController.java
+│   │   │               │   └── UserController.java
+│   │   │               ├── model/
+│   │   │               │   ├── Employee.java
+│   │   │               │   ├── UserPrincipal.java
+│   │   │               │   └── Users.java
+│   │   │               ├── repository/
+│   │   │               │   ├── EmployeeRepository.java
+│   │   │               │   └── UserRepository.java
+│   │   │               ├── security/
+│   │   │               │   ├── CustomAuthenticationSuccessHandler.java
+│   │   │               │   └── SecurityConfig.java
+│   │   │               ├── service/
+│   │   │               │   ├── EmailService.java
+│   │   │               │   ├── EmployeeService.java
+│   │   │               │   ├── MyUserDetailsService.java
+│   │   │               │   └── UserService.java
+│   │   │               └── EmployeeManagementSystemApplication.java
+│   │   └── resources/
+│   │       ├── static/
+│   │       │   └── (static assets like CSS, JS, images)
+│   │       ├── templates/
+│   │       │   └── (Thymeleaf or other templates for web views)
+│   │       ├── application.properties
+│   │       └── data.sql
+│   └── test/
+│       └── (test classes and resources)
+|_pom.xml
+│ 
+└── README.md
+
 
 
 
